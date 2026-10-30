@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — Personal Finance</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #2d3748;
+            --container-bg: #ffffff;
+            --primary-color: #0f9d77;
+            --border-color: #e2e8f0;
+            --highlight-bg: #e6f4f1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.65;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: var(--container-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--text-color);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #718096;
+            margin: 0;
+        }
+
+        .lang-section {
+            margin-bottom: 50px;
+        }
+
+        .lang-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #1a202c;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p, li {
+            font-size: 1.05rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #1a202c;
+        }
+
+        .alert-box {
+            background-color: var(--highlight-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .alert-box p {
+            margin: 0;
+        }
+
+        .email-contact {
+            background-color: #f7fafc;
+            border: 1px dashed var(--border-color);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .email-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .email-contact a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Política de Privacidade / Privacy Policy</h1>
+        <p class="last-updated"><strong>Última atualização / Last updated:</strong> 30 de Outubro de 2026 / October 30, 2026</p>
+    </header>
+
+    <!-- SEÇÃO EM PORTUGUÊS -->
+    <section class="lang-section" lang="pt-BR">
+        <h2 class="lang-title">🇧🇷 Português</h2>
+        <p>A sua privacidade é fundamental para o <strong>Personal Finance</strong>. Esta Política de Privacidade descreve como tratamos (ou não tratamos) seus dados pessoais ao utilizar nosso aplicativo.</p>
+
+        <div class="alert-box">
+            <p><strong>Privacidade Total (Offline-First):</strong> O Personal Finance armazena todos os seus dados financeiros exclusivamente no seu dispositivo. Nós não coletamos, transmitimos nem armazenamos suas transações em servidores externos.</p>
+        </div>
+
+        <h3>1. Coleta e Armazenamento de Dados Financeiros</h3>
+        <p>Todas as informações inseridas no aplicativo — incluindo receitas, despesas, parcelamentos, limites de orçamento e categorias — são salvas localmente no armazenamento seguro do seu celular. Nossa equipe não possui acesso a nenhuma informação financeira registrada.</p>
+
+        <h3>2. Arquivos de Backup (.pfbak)</h3>
+        <p>Os arquivos de backup gerados no formato <code>.pfbak</code> são salvos e mantidos estritamente sob o controle do usuário. O usuário é o único responsável pelo armazenamento, envio ou restauração desses arquivos.</p>
+
+        <h3>3. Processamento de Assinaturas e Pagamentos</h3>
+        <p>Para a gestão de assinaturas Pro e validação do período de teste ( trial de 14 dias), utilizamos serviços integrados do Google Play Billing e da plataforma de terceiros <em>RevenueCat</em>. Essas ferramentas tratam dados estritamente necessários para validação do status da assinatura (como IDs anônimos de transação). Não temos acesso a dados de cartão de crédito ou informações bancárias.</p>
+
+        <h3>4. Permissões e Notificações Locais</h3>
+        <p>O aplicativo pode solicitar permissões de envio de notificações locais no Android/iOS para alertar o usuário sobre contas a vencer. Esses lembretes são disparados internamente pelo dispositivo e não utilizam servidores externos de envio de mensagens.</p>
+
+        <h3>5. Contato</h3>
+        <p>Para dúvidas sobre privacidade, entre em contato através do e-mail:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ENGLISH SECTION -->
+    <section class="lang-section" lang="en">
+        <h2 class="lang-title">🇺🇸 English</h2>
+        <p>Your privacy is paramount at <strong>Personal Finance</strong>. This Privacy Policy describes how we handle (or do not handle) your personal data when using our application.</p>
+
+        <div class="alert-box">
+            <p><strong>100% Offline Privacy:</strong> Personal Finance stores all your financial records exclusively on your device. We do not collect, transmit, or host your transactions on external cloud servers.</p>
+        </div>
+
+        <h3>1. Financial Data Storage</h3>
+        <p>All records created within the app — including income, expenses, installments, budget limits, and categories — remain stored locally on your device's internal storage. We do not have access to your personal financial records.</p>
+
+        <h3>2. Backup Files (.pfbak)</h3>
+        <p>Backup files produced in the <code>.pfbak</code> format are saved locally and managed strictly by the user. The user assumes full responsibility for storing, sharing, or restoring these backup files.</p>
+
+        <h3>3. Payment & Subscription Processing</h3>
+        <p>To manage Pro subscriptions and the 14-day free trial, we utilize Google Play Billing and <em>RevenueCat</em> SDKs. These services process anonymous transaction identifiers necessary to confirm active subscription status. We never collect or store credit card numbers or banking credentials.</p>
+
+        <h3>4. Local Notifications & Permissions</h3>
+        <p>The app requests permission to schedule local notifications on your device for upcoming bill reminders. All scheduled notifications operate offline and do not rely on remote messaging servers.</p>
+
+        <h3>5. Contact Us</h3>
+        <p>For privacy queries, please reach out to:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN EN ESPAÑOL -->
+    <section class="lang-section" lang="es">
+        <h2 class="lang-title">🇪🇸 Español</h2>
+        <p>Tu privacidad es fundamental en <strong>Personal Finance</strong>. Esta Política de Privacidad describe cómo gestionamos tus datos personales al usar la aplicación.</p>
+
+        <div class="alert-box">
+            <p><strong>Privacidad Total (100% Offline):</strong> Personal Finance guarda todos tus registros financieros exclusivamente en tu dispositivo. No recopilamos ni almacenamos tus transacciones en servidores externos.</p>
+        </div>
+
+        <h3>1. Almacenamiento de Datos Financieros</h3>
+        <p>Toda la información registrada — ingresos, gastos, cuotas, límites de presupuesto y categorías — se guarda únicamente en el almacenamiento local de tu dispositivo. No tenemos acceso a tus datos financieros.</p>
+
+        <h3>2. Archivos de Respaldo (.pfbak)</h3>
+        <p>Los archivos de copia de seguridad en formato <code>.pfbak</code> se guardan en el dispositivo bajo el control exclusivo del usuario. El usuario es el único responsable de guardar o restaurar estos archivos.</p>
+
+        <h3>3. Procesamiento de Pagos y Suscripciones</h3>
+        <p>Para la gestión de la suscripción Pro y la prueba de 14 días, utilizamos Google Play Billing y <em>RevenueCat</em>. Estas herramientas procesan datos anónimos necesarios para verificar el estado de la suscripción. No tenemos acceso a datos bancarios ni tarjetas de crédito.</p>
+
+        <h3>4. Permisos y Notificaciones Locales</h3>
+        <p>La aplicación solicita permisos para programar alertas locales de vencimiento de cuentas. Estas alarmas funcionan de forma interna en el dispositivo sin depender de servidores remotos.</p>
+
+        <h3>5. Contacto</h3>
+        <p>Para consultas sobre privacidad, puedes escribirnos a:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
