@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Uso — Personal Finance</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #2d3748;
+            --container-bg: #ffffff;
+            --primary-color: #0f9d77;
+            --border-color: #e2e8f0;
+            --highlight-bg: #e6f4f1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.65;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: var(--container-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--text-color);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #718096;
+            margin: 0;
+        }
+
+        .lang-section {
+            margin-bottom: 50px;
+        }
+
+        .lang-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: #1a202c;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p, li {
+            font-size: 1.05rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #1a202c;
+        }
+
+        .alert-box {
+            background-color: var(--highlight-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .alert-box p {
+            margin: 0;
+        }
+
+        .email-contact {
+            background-color: #f7fafc;
+            border: 1px dashed var(--border-color);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .email-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .email-contact a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Termos de Uso / Terms of Use</h1>
+        <p class="last-updated"><strong>Última atualização / Last updated:</strong> 30 de Outubro de 2026 / October 30, 2026</p>
+    </header>
+
+    <!-- SEÇÃO EM PORTUGUÊS -->
+    <section class="lang-section" lang="pt-BR">
+        <h2 class="lang-title">🇧🇷 Português</h2>
+        <p>Bem-vindo ao <strong>Personal Finance</strong>. Ao baixar, instalar ou utilizar este aplicativo, você concorda em cumprir e estar vinculado aos seguintes Termos de Uso. Caso não concorde, recomendamos não utilizar o aplicativo.</p>
+
+        <h3>1. Descrição do Serviço</h3>
+        <p>O Personal Finance é uma ferramenta de produtividade e gestão financeira pessoal desenvolvida para auxiliar o controle de orçamento mensal, parcelamentos, receitas, despesas e projeções de fluxo de caixa.</p>
+
+        <h3>2. Período de Teste Gratuito e Assinaturas Pro</h3>
+        <div class="alert-box">
+            <p><strong>Teste Grátis (14 dias):</strong> Novos usuários têm direito a um período de avaliação gratuita de 14 (quatorze) dias, com acesso ilimitado a todas as funcionalidades do aplicativo.</p>
+        </div>
+        <ul>
+            <li><strong>Cobrança e Assinatura:</strong> Após o término dos 14 dias de teste, o acesso contínuo aos recursos Pro exige a contratação de um plano de assinatura (Mensal ou Anual) gerenciado via Google Play Store.</li>
+            <li><strong>Planos e Preços:</strong> Os valores das assinaturas são exibidos na tela de assinatura do aplicativo e confirmados no momento da compra pela Google Play Store, podendo variar conforme o país, moeda local e impostos da região.</li>
+            <li><strong>Cancelamento:</strong> Você pode cancelar a qualquer momento diretamente pelo menu de Assinaturas da Google Play Store (<code>Play Store &gt; Perfil &gt; Pagamentos e Assinaturas &gt; Assinaturas</code>). O cancelamento impede cobranças futuras.</li>
+            <li><strong>Reembolsos:</strong> As solicitações de reembolso seguem estritamente as diretrizes oficiais da Google Play Store.</li>
+        </ul>
+
+        <h3>3. Isenção de Responsabilidade Financeira</h3>
+        <p>O Personal Finance é estritamente uma ferramenta de organização de dados do usuário. O aplicativo <strong>não fornece consultoria financeira, fiscal, jurídica ou de investimentos</strong>. Decisões econômicas tomadas pelo usuário são de sua inteira responsabilidade.</p>
+
+        <h3>4. Guarda de Dados e Responsabilidade do Usuário</h3>
+        <ul>
+            <li>O aplicativo opera de forma <strong>100% offline</strong> e não armazena registros financeiros em servidores externos ou nuvem própria.</li>
+            <li>É de responsabilidade exclusiva do usuário realizar cópias de segurança periódicas (backups <code>.pfbak</code>) e guardar o arquivo com segurança para prevenir perda de dados em caso de troca ou restauração do dispositivo.</li>
+        </ul>
+
+        <h3>5. Propriedade Intelectual</h3>
+        <p>Todos os direitos autorais, marcas, código-fonte e design do aplicativo Personal Finance são de propriedade exclusiva de seus desenvolvedores. É proibida qualquer engenharia reversa ou reprodução não autorizada do aplicativo.</p>
+
+        <h3>6. Contato</h3>
+        <p>Dúvidas comerciais ou suporte podem ser direcionados a:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- ENGLISH SECTION -->
+    <section class="lang-section" lang="en">
+        <h2 class="lang-title">🇺🇸 English</h2>
+        <p>Welcome to <strong>Personal Finance</strong>. By downloading, installing, or using this application, you agree to comply with and be bound by the following Terms of Use. If you do not agree, please do not use the application.</p>
+
+        <h3>1. Description of Service</h3>
+        <p>Personal Finance is a personal budgeting and financial management tool designed to help users organize monthly budgets, installments, income, expenses, and cash flow projections.</p>
+
+        <h3>2. Free Trial & Pro Subscriptions</h3>
+        <div class="alert-box">
+            <p><strong>14-Day Free Trial:</strong> New users are eligible for a 14-day free trial granting full access to all features within the application.</p>
+        </div>
+        <ul>
+            <li><strong>Subscription Billing:</strong> Following the 14-day trial, continued access to Pro features requires an active subscription plan (Monthly or Annual) managed via the Google Play Store.</li>
+            <li><strong>Plans & Pricing:</strong> Subscription fees are shown on the app's paywall and confirmed at checkout through Google Play. Prices may vary by country, currency, and local taxes.</li>
+            <li><strong>Cancellation:</strong> You may cancel at any time via the Google Play Store (<code>Play Store &gt; Profile &gt; Payments &amp; Subscriptions &gt; Subscriptions</code>). Cancellation stops future charges.</li>
+            <li><strong>Refunds:</strong> Refund requests are governed strictly by Google Play Store policies.</li>
+        </ul>
+
+        <h3>3. Financial Disclaimer</h3>
+        <p>Personal Finance is strictly a data-management tool for personal organization. The application <strong>does not provide financial, investment, tax, or legal advice</strong>. Any economic decisions made by the user are their sole responsibility.</p>
+
+        <h3>4. Local Data Safeguard & User Responsibility</h3>
+        <ul>
+            <li>The application operates <strong>100% offline</strong> and does not store financial records on external cloud servers.</li>
+            <li>Users are solely responsible for creating regular local backups (<code>.pfbak</code> files) to prevent data loss in case of device changes or reset.</li>
+        </ul>
+
+        <h3>5. Intellectual Property</h3>
+        <p>All software code, trademarks, and design assets of Personal Finance belong exclusively to its developers. Unauthorized distribution, decompilation, or reverse engineering is strictly prohibited.</p>
+
+        <h3>6. Support & Contact</h3>
+        <p>For questions or support, contact:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN EN ESPAÑOL -->
+    <section class="lang-section" lang="es">
+        <h2 class="lang-title">🇪🇸 Español</h2>
+        <p>Bienvenido a <strong>Personal Finance</strong>. Al descargar, instalar o utilizar esta aplicación, aceptas cumplir y estar sujeto a los siguientes Términos de Uso. Si no estás de acuerdo, te recomendamos no utilizar la aplicación.</p>
+
+        <h3>1. Descripción del Servicio</h3>
+        <p>Personal Finance es una herramienta de gestión financiera personal diseñada para ayudar a organizar presupuestos mensuales, cuotas, ingresos, gastos y proyecciones de flujo de caja.</p>
+
+        <h3>2. Período de Prueba Gratuito y Suscripciones Pro</h3>
+        <div class="alert-box">
+            <p><strong>Prueba Gratis (14 días):</strong> Los nuevos usuarios tienen derecho a un período de evaluación gratuita de 14 (catorce) días con acceso ilimitado a todas las funciones.</p>
+        </div>
+        <ul>
+            <li><strong>Facturación:</strong> Finalizados los 14 días de prueba, el acceso continuo a las funciones Pro requiere la compra de una suscripción (Mensual o Anual) gestionada por Google Play Store.</li>
+            <li><strong>Planes y Precios:</strong> Los precios se muestran en la pantalla de suscripción y se confirman en el proceso de compra de Google Play Store. Pueden variar según el país, moneda local e impuestos regionales.</li>
+            <li><strong>Cancelación:</strong> Puedes cancelar en cualquier momento desde Google Play Store (<code>Play Store &gt; Perfil &gt; Pagos y Suscripciones &gt; Suscripciones</code>). La cancelación detiene cobros futuros.</li>
+            <li><strong>Reembolsos:</strong> Las solicitudes de reembolso se rigen estrictamente por las políticas de Google Play Store.</li>
+        </ul>
+
+        <h3>3. Exención de Responsabilidad Financiera</h3>
+        <p>Personal Finance es exclusivamente una herramienta de organización personal. La aplicación <strong>no ofrece asesoramiento financiero, fiscal, legal o de inversión</strong>. Las decisiones económicas tomadas por el usuario son de su exclusiva responsabilidad.</p>
+
+        <h3>4. Resguardo de Datos y Responsabilidad del Usuario</h3>
+        <ul>
+            <li>La aplicación funciona <strong>100% offline</strong> y no almacena registros financieros en servidores externos o en la nube.</li>
+            <li>El usuario es el único responsable de realizar copias de seguridad locales periódicas (archivos <code>.pfbak</code>) para evitar pérdidas de datos al cambiar o restaurar el dispositivo.</li>
+        </ul>
+
+        <h3>5. Propiedad Intelectual</h3>
+        <p>Todos los derechos de autor, marcas, código fuente y diseño de Personal Finance son propiedad exclusiva de sus desarrolladores. Queda prohibida la ingeniería inversa o reproducción no autorizada.</p>
+
+        <h3>6. Contacto</h3>
+        <p>Para consultas o soporte, contactar a:</p>
+        <div class="email-contact">
+            <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
