@@ -14,6 +14,10 @@
             --highlight-bg: #e6f4f1;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -51,6 +55,23 @@
             margin: 0;
         }
 
+        .quick-links {
+            margin-top: 18px;
+            font-size: 0.95rem;
+        }
+
+        .quick-links a {
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0 8px;
+            white-space: nowrap;
+        }
+
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+
         .lang-section {
             margin-bottom: 50px;
         }
@@ -72,6 +93,7 @@
             color: #1a202c;
             margin-top: 25px;
             margin-bottom: 12px;
+            scroll-margin-top: 20px;
         }
 
         p, li {
@@ -83,7 +105,7 @@
             margin-bottom: 16px;
         }
 
-        ul {
+        ul, ol {
             margin-top: 0;
             margin-bottom: 20px;
             padding-left: 24px;
@@ -97,6 +119,10 @@
             color: #1a202c;
         }
 
+        a {
+            color: var(--primary-color);
+        }
+
         .alert-box {
             background-color: var(--highlight-bg);
             border-left: 4px solid var(--primary-color);
@@ -107,6 +133,15 @@
 
         .alert-box p {
             margin: 0;
+        }
+
+        /* Destaque da seção de exclusão (exigência do Google Play) */
+        .deletion-box {
+            border: 2px solid var(--primary-color);
+            border-radius: 10px;
+            padding: 5px 20px 10px;
+            margin-top: 25px;
+            background-color: #fbfefd;
         }
 
         .email-contact {
@@ -153,7 +188,13 @@
 <div class="container">
     <header>
         <h1>Política de Privacidade / Privacy Policy</h1>
-        <p class="last-updated"><strong>Última atualização / Last updated:</strong> 30 de Outubro de 2026 / October 30, 2026</p>
+        <p class="last-updated"><strong>Última atualização / Last updated:</strong> 11 de novembro de 2026 / November 11, 2026</p>
+        <p class="quick-links">
+            Exclusão de dados / Data deletion / Eliminación de datos:
+            <a href="#exclusao">Português</a>
+            <a href="#deletion">English</a>
+            <a href="#eliminacion">Español</a>
+        </p>
     </header>
 
     <!-- SEÇÃO EM PORTUGUÊS -->
@@ -162,25 +203,40 @@
         <p>A sua privacidade é fundamental para o <strong>Personal Finance</strong>. Esta Política de Privacidade descreve como tratamos (ou não tratamos) seus dados pessoais ao utilizar nosso aplicativo.</p>
 
         <div class="alert-box">
-            <p><strong>Privacidade Total (Offline-First):</strong> O Personal Finance armazena todos os seus dados financeiros exclusivamente no seu dispositivo. Nós não coletamos, transmitimos nem armazenamos suas transações em servidores externos.</p>
+            <p><strong>Privacidade Total (Offline-First):</strong> O Personal Finance armazena todos os seus lançamentos financeiros exclusivamente no seu dispositivo. Nós não coletamos, transmitimos nem armazenamos suas transações em servidores externos.</p>
         </div>
 
         <h3>1. Coleta e Armazenamento de Dados Financeiros</h3>
-        <p>Todas as informações inseridas no aplicativo — incluindo receitas, despesas, parcelamentos, limites de orçamento e categorias — são salvas localmente no armazenamento seguro do seu celular. Nossa equipe não possui acesso a nenhuma informação financeira registrada.</p>
+        <p>Todas as informações inseridas no aplicativo — incluindo receitas, despesas, parcelamentos, limites de orçamento e categorias — são salvas localmente no armazenamento do seu celular. Não exigimos conta nem login, e nossa equipe não possui acesso a nenhuma informação financeira registrada.</p>
 
         <h3>2. Arquivos de Backup (.pfbak)</h3>
         <p>Os arquivos de backup gerados no formato <code>.pfbak</code> são salvos e mantidos estritamente sob o controle do usuário. O usuário é o único responsável pelo armazenamento, envio ou restauração desses arquivos.</p>
 
         <h3>3. Processamento de Assinaturas e Pagamentos</h3>
-        <p>Para a gestão de assinaturas Pro e validação do período de teste ( trial de 14 dias), utilizamos serviços integrados do Google Play Billing e da plataforma de terceiros <em>RevenueCat</em>. Essas ferramentas tratam dados estritamente necessários para validação do status da assinatura (como IDs anônimos de transação). Não temos acesso a dados de cartão de crédito ou informações bancárias.</p>
+        <p>Para a gestão da assinatura Pro, utilizamos o Google Play Billing e a plataforma de terceiros <em>RevenueCat</em>. Essas ferramentas tratam apenas os dados necessários para confirmar o status da assinatura: o histórico de compras da assinatura e um identificador anônimo gerado pelo app. O plano anual pode incluir um período de teste grátis de 7 dias, concedido e controlado pelo Google Play (uma vez por conta Google). Não temos acesso a dados de cartão de crédito ou informações bancárias. Os dados de pagamento são tratados pelo Google conforme a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</p>
 
         <h3>4. Permissões e Notificações Locais</h3>
-        <p>O aplicativo pode solicitar permissões de envio de notificações locais no Android/iOS para alertar o usuário sobre contas a vencer. Esses lembretes são disparados internamente pelo dispositivo e não utilizam servidores externos de envio de mensagens.</p>
+        <p>O aplicativo pode solicitar permissão para enviar notificações locais, para alertar o usuário sobre contas a vencer. Esses lembretes são disparados internamente pelo dispositivo e não utilizam servidores externos de envio de mensagens.</p>
 
         <h3>5. Contato</h3>
         <p>Para dúvidas sobre privacidade, entre em contato através do e-mail:</p>
         <div class="email-contact">
             <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+
+        <div class="deletion-box">
+            <h3 id="exclusao">6. Exclusão de dados — Personal Finance</h3>
+            <p>Seus lançamentos financeiros ficam apenas no seu celular. Para apagá-los, desinstale o app ou limpe os dados dele em <strong>Configurações do Android → Apps → Personal Finance → Armazenamento → Limpar dados</strong>.</p>
+            <p>O único dado guardado fora do aparelho é o histórico de compras da assinatura, processado pelo RevenueCat. Para pedir a exclusão:</p>
+            <ol>
+                <li>Envie um e-mail para <a href="mailto:salemadiariodeservicos@gmail.com?subject=Excluir%20meus%20dados%20-%20Personal%20Finance">salemadiariodeservicos@gmail.com</a> com o assunto "Excluir meus dados".</li>
+                <li>Informe o número do pedido do Google Play (começa com "GPA." e está no recibo enviado pelo Google por e-mail).</li>
+                <li>Você receberá a confirmação da exclusão em até 30 dias.</li>
+            </ol>
+            <p><strong>Dados excluídos:</strong> todo o histórico de compras e os identificadores da assinatura no RevenueCat.<br>
+            <strong>Dados mantidos:</strong> nenhum pelo desenvolvedor. O Google Play mantém os registros da própria transação conforme a política de privacidade do Google.<br>
+            <strong>Retenção:</strong> sem pedido de exclusão, o histórico de compras é mantido enquanto o app estiver disponível, para permitir "Restaurar compras".</p>
+            <p>Excluir os dados não cancela a assinatura. Para cancelar, use a Play Store → Pagamentos e assinaturas → Assinaturas.</p>
         </div>
     </section>
 
@@ -192,25 +248,40 @@
         <p>Your privacy is paramount at <strong>Personal Finance</strong>. This Privacy Policy describes how we handle (or do not handle) your personal data when using our application.</p>
 
         <div class="alert-box">
-            <p><strong>100% Offline Privacy:</strong> Personal Finance stores all your financial records exclusively on your device. We do not collect, transmit, or host your transactions on external cloud servers.</p>
+            <p><strong>100% Offline Privacy:</strong> Personal Finance stores all your financial records exclusively on your device. We do not collect, transmit, or host your transactions on external servers.</p>
         </div>
 
         <h3>1. Financial Data Storage</h3>
-        <p>All records created within the app — including income, expenses, installments, budget limits, and categories — remain stored locally on your device's internal storage. We do not have access to your personal financial records.</p>
+        <p>All records created within the app — including income, expenses, installments, budget limits, and categories — remain stored locally on your device. No account or login is required, and we have no access to your financial records.</p>
 
         <h3>2. Backup Files (.pfbak)</h3>
-        <p>Backup files produced in the <code>.pfbak</code> format are saved locally and managed strictly by the user. The user assumes full responsibility for storing, sharing, or restoring these backup files.</p>
+        <p>Backup files produced in the <code>.pfbak</code> format are saved and managed strictly by the user. The user assumes full responsibility for storing, sharing, or restoring these backup files.</p>
 
-        <h3>3. Payment & Subscription Processing</h3>
-        <p>To manage Pro subscriptions and the 14-day free trial, we utilize Google Play Billing and <em>RevenueCat</em> SDKs. These services process anonymous transaction identifiers necessary to confirm active subscription status. We never collect or store credit card numbers or banking credentials.</p>
+        <h3>3. Payment &amp; Subscription Processing</h3>
+        <p>To manage the Pro subscription, we use Google Play Billing and the third-party platform <em>RevenueCat</em>. These services process only the data needed to confirm subscription status: the subscription purchase history and an anonymous identifier generated by the app. The annual plan may include a 7-day free trial, granted and controlled by Google Play (once per Google account). We never collect or store credit card numbers or banking credentials. Payment data is handled by Google under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
 
-        <h3>4. Local Notifications & Permissions</h3>
-        <p>The app requests permission to schedule local notifications on your device for upcoming bill reminders. All scheduled notifications operate offline and do not rely on remote messaging servers.</p>
+        <h3>4. Local Notifications &amp; Permissions</h3>
+        <p>The app may request permission to show local notifications for upcoming bill reminders. These notifications are scheduled on the device and do not rely on remote messaging servers.</p>
 
         <h3>5. Contact Us</h3>
         <p>For privacy queries, please reach out to:</p>
         <div class="email-contact">
             <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+
+        <div class="deletion-box">
+            <h3 id="deletion">6. Data Deletion — Personal Finance</h3>
+            <p>Your financial records stay only on your phone. To delete them, uninstall the app or clear its data in <strong>Android Settings → Apps → Personal Finance → Storage → Clear data</strong>.</p>
+            <p>The only data stored outside the device is the subscription purchase history, processed by RevenueCat. To request its deletion:</p>
+            <ol>
+                <li>Send an e-mail to <a href="mailto:salemadiariodeservicos@gmail.com?subject=Delete%20my%20data%20-%20Personal%20Finance">salemadiariodeservicos@gmail.com</a> with the subject "Delete my data".</li>
+                <li>Include your Google Play order number (it starts with "GPA." and appears on the receipt Google sends by e-mail).</li>
+                <li>You will receive a deletion confirmation within 30 days.</li>
+            </ol>
+            <p><strong>Data deleted:</strong> all subscription purchase history and identifiers stored in RevenueCat.<br>
+            <strong>Data kept:</strong> none by the developer. Google Play keeps its own transaction records under Google's privacy policy.<br>
+            <strong>Retention:</strong> without a deletion request, purchase history is kept while the app is available, so that "Restore purchases" works.</p>
+            <p>Deleting your data does not cancel the subscription. To cancel, use Play Store → Payments &amp; subscriptions → Subscriptions.</p>
         </div>
     </section>
 
@@ -226,41 +297,36 @@
         </div>
 
         <h3>1. Almacenamiento de Datos Financieros</h3>
-        <p>Toda la información registrada — ingresos, gastos, cuotas, límites de presupuesto y categorías — se guarda únicamente en el almacenamiento local de tu dispositivo. No tenemos acceso a tus datos financieros.</p>
+        <p>Toda la información registrada — ingresos, gastos, cuotas, límites de presupuesto y categorías — se guarda únicamente en el almacenamiento local de tu dispositivo. No se requiere cuenta ni inicio de sesión, y no tenemos acceso a tus datos financieros.</p>
 
         <h3>2. Archivos de Respaldo (.pfbak)</h3>
-        <p>Los archivos de copia de seguridad en formato <code>.pfbak</code> se guardan en el dispositivo bajo el control exclusivo del usuario. El usuario es el único responsable de guardar o restaurar estos archivos.</p>
+        <p>Los archivos de copia de seguridad en formato <code>.pfbak</code> se guardan bajo el control exclusivo del usuario. El usuario es el único responsable de guardar, compartir o restaurar estos archivos.</p>
 
         <h3>3. Procesamiento de Pagos y Suscripciones</h3>
-        <p>Para la gestión de la suscripción Pro y la prueba de 14 días, utilizamos Google Play Billing y <em>RevenueCat</em>. Estas herramientas procesan datos anónimos necesarios para verificar el estado de la suscripción. No tenemos acceso a datos bancarios ni tarjetas de crédito.</p>
+        <p>Para la gestión de la suscripción Pro, utilizamos Google Play Billing y la plataforma de terceros <em>RevenueCat</em>. Estas herramientas procesan solo los datos necesarios para verificar el estado de la suscripción: el historial de compras de la suscripción y un identificador anónimo generado por la app. El plan anual puede incluir una prueba gratuita de 7 días, otorgada y controlada por Google Play (una vez por cuenta de Google). No tenemos acceso a datos bancarios ni tarjetas de crédito. Los datos de pago son tratados por Google según la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</p>
 
         <h3>4. Permisos y Notificaciones Locales</h3>
-        <p>La aplicación solicita permisos para programar alertas locales de vencimiento de cuentas. Estas alarmas funcionan de forma interna en el dispositivo sin depender de servidores remotos.</p>
+        <p>La aplicación puede solicitar permiso para mostrar notificaciones locales de vencimiento de cuentas. Estas alertas se programan en el dispositivo sin depender de servidores remotos.</p>
 
         <h3>5. Contacto</h3>
         <p>Para consultas sobre privacidad, puedes escribirnos a:</p>
-
-        <h2 id="exclusao">6. Exclusão de dados</h2>
-        <p><strong>Personal Finance</strong> não exige conta nem login. Seus lançamentos financeiros ficam
-        apenas no seu celular: para apagá-los, desinstale o app ou limpe os dados dele em
-        Configurações do Android → Apps → Personal Finance → Armazenamento → Limpar dados.</p>
-        <p>O único dado guardado fora do aparelho é o histórico de compras da assinatura, processado
-        pelo RevenueCat. Para pedir a exclusão:</p>
-        <ol>
-        <li>Envie um e-mail para <a href="mailto:salemadiariodeservicos@gmail.com?subject=Excluir%20meus%20dados">salemadiariodeservicos@gmail.com</a>
-        com o assunto "Excluir meus dados".</li>
-        <li>Informe o número do pedido do Google Play (começa com "GPA.", está no recibo enviado pelo Google).</li>
-        <li>Você receberá a confirmação da exclusão em até 30 dias.</li>
-        </ol>
-        <p><strong>Dados excluídos:</strong> todo o histórico de compras e identificadores da assinatura no RevenueCat.<br>
-        <strong>Dados mantidos:</strong> nenhum pelo desenvolvedor. O Google Play mantém os registros da
-        própria transação conforme a política de privacidade do Google.<br>
-        <strong>Retenção:</strong> sem pedido de exclusão, o histórico de compras é mantido enquanto o app
-        estiver disponível, para permitir "Restaurar compras".</p>
-        <p>Excluir os dados não cancela a assinatura. Para cancelar, use a Play Store → Pagamentos e assinaturas.</p>
-        
         <div class="email-contact">
             <a href="mailto:salemadiariodeservicos@gmail.com">salemadiariodeservicos@gmail.com</a>
+        </div>
+
+        <div class="deletion-box">
+            <h3 id="eliminacion">6. Eliminación de datos — Personal Finance</h3>
+            <p>Tus registros financieros quedan solo en tu teléfono. Para borrarlos, desinstala la app o borra sus datos en <strong>Ajustes de Android → Apps → Personal Finance → Almacenamiento → Borrar datos</strong>.</p>
+            <p>El único dato guardado fuera del dispositivo es el historial de compras de la suscripción, procesado por RevenueCat. Para solicitar su eliminación:</p>
+            <ol>
+                <li>Envía un e-mail a <a href="mailto:salemadiariodeservicos@gmail.com?subject=Eliminar%20mis%20datos%20-%20Personal%20Finance">salemadiariodeservicos@gmail.com</a> con el asunto "Eliminar mis datos".</li>
+                <li>Indica el número de pedido de Google Play (empieza con "GPA." y aparece en el recibo que Google envía por e-mail).</li>
+                <li>Recibirás la confirmación de la eliminación en un plazo de 30 días.</li>
+            </ol>
+            <p><strong>Datos eliminados:</strong> todo el historial de compras y los identificadores de la suscripción en RevenueCat.<br>
+            <strong>Datos conservados:</strong> ninguno por parte del desarrollador. Google Play conserva sus propios registros de la transacción según la política de privacidad de Google.<br>
+            <strong>Retención:</strong> sin una solicitud de eliminación, el historial de compras se conserva mientras la app esté disponible, para que "Restaurar compras" funcione.</p>
+            <p>Eliminar tus datos no cancela la suscripción. Para cancelarla, usa Play Store → Pagos y suscripciones → Suscripciones.</p>
         </div>
     </section>
 </div>
